@@ -547,6 +547,23 @@
       justify-content:end;
     }
     .footer-meta{color:var(--muted)}
+    .powered-by{
+      margin-top:26px;
+      padding-top:18px;
+      border-top:1px solid var(--line);
+      text-align:center;
+      font-size:13px;
+      color:var(--muted);
+    }
+    .powered-by a{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      color:var(--muted);
+      text-decoration:none;
+    }
+    .powered-by a:hover{color:var(--text)}
+    .powered-by img{display:block;opacity:.85}
     .sticky-mobile{
       position:fixed;
       left:12px;
@@ -991,6 +1008,9 @@
         <a href="#faq">FAQ</a>
         <a href="#quote-form">Request Service</a>
       </div>
+    </div>
+    <div class="container powered-by">
+      <a href="https://secretsystems.io/" target="_blank" rel="noopener noreferrer">Powered by <img src="secret-systems-powered-by-logo.png" alt="Secret Systems" width="64" height="22"><span style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap">(opens in a new tab)</span></a>
     </div>
   </footer>
 
